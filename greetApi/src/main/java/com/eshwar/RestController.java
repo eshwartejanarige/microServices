@@ -10,4 +10,5 @@ public class RestController {
         String a="good news u r in greet page ";
         return a;
     }
+//    merge
 }
