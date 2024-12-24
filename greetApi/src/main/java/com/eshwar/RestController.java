@@ -10,8 +10,5 @@ public class RestController {
         String a="good news u r in greet page ";
         return a;
     }
-    @GetMapping("/sport")
-    public String sports(){
-        return "cricket....";
-    }
+//    merge
 }
