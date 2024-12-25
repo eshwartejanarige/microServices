@@ -10,6 +10,7 @@ public class RestController {
         String a="good news u r in greet page ";
         return a;
     }
+
     @GetMapping("/math")
     public int math(){
         int a=20;
