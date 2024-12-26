@@ -21,5 +21,9 @@ public class RestController {
     public String Products(){
         return "products are in progress";
     }
+    @GetMapping("/students")
+    public String Students(){
+        return "there are 32 students in my java class";
+    }
 
 }
