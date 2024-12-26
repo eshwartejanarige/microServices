@@ -25,5 +25,9 @@ public class RestController {
     public String Students(){
         return "there are 32 students in my java class";
     }
+    @GetMapping("/IDE")
+    public String Ide(){
+        return "intellij";
+    }
 
 }
