@@ -16,4 +16,8 @@ public class WelcomeApi {
         String msg=greetClient.invokeGreet();
         return a + ".........."+msg;
     }
+    @GetMapping("/card")
+    public String Card(){
+        return apple +"banana"+are the items in card;
+    }
 }
