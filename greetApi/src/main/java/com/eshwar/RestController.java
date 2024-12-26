@@ -17,4 +17,9 @@ public class RestController {
         int b=30;
         return a*b;
     }
+    @GetMapping("/products")
+    public String Products(){
+        return "products are in progress";
+    }
+
 }
