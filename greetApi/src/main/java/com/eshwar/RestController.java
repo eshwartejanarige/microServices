@@ -11,4 +11,8 @@ public class RestController {
         return a;
     }
 //    merge
+    @GetMapping("/good ")
+    public String Good(){
+        return "good to do things under krishna"
+    }
 }
