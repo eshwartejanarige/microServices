@@ -29,5 +29,9 @@ public class RestController {
     public String Ide(){
         return "intellij";
     }
+    @GetMapping("/1")
+    public String number(){
+        return "1st";
+    }
 
 }
